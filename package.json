@@ -1,6 +1,6 @@
 {
-  "name": "tinyuuid",
-  "version": "1.0.1",
+  "name": "quickgenid",
+  "version": "1.0.2",
   "description": "Length-Controlled UUID Generator",
   "type": "module",
   "main": "index.js",
@@ -9,18 +9,18 @@
   },
   "keywords": [
     "uuid",
-    "tinyuuid"
+    "qickgenid"
   ],
   "engines": {
     "node": ">=8"
   },
   "bugs": {
-    "url": "https://github.com/lmas3009/TinyUUID/issues"
+    "url": "hhttps://github.com/lmas3009/QuickGenID/issues"
   },
-  "homepage": "https://github.com/lmas3009/TinyUUID.git#readme",
+  "homepage": "https://github.com/lmas3009/QuickGenID#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lmas3009/TinyUUID.git"
+    "url": "git+https://github.com/lmas3009/QuickGenID.git"
   },
   "author": "Aravind Kumar Vemula",
   "license": "ISC"

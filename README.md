@@ -1,4 +1,4 @@
-# tinyuuid
+# quickgenid
 
 Length-Controlled UUID Generator
 
@@ -7,10 +7,10 @@ Length-Controlled UUID Generator
 ### Quick Start
 
 ```javascript
-const tinyuuid = require('tinyuuid');
+import { QuickGenID } from "quickgenid";
 
 // Quick start with with length=undefined
-tinyuuid.TinyUUID(); // 2miorbnev7f9iac6mcmk3lithr (26 length)
+QuickGenID(); // 2miorbnev7f9iac6mcmk3lithr (26 length)
 ```
 
 ### Details
@@ -18,18 +18,18 @@ tinyuuid.TinyUUID(); // 2miorbnev7f9iac6mcmk3lithr (26 length)
 Length-Controlled UUID Generator
 
 ```javascript
-const tinyuuid = require('tinyuuid');
+import { QuickGenID } from "quickgenid";
 
 // Generate a shortened UUID with length 10
-tinyuuid.TinyUUID(10); // dpoeju10bv
+QuickGenID(10); // dpoeju10bv
 
 
 // Generate a shortened UUID with length 5
-tinyuuid.TinyUUID(10); // myl72
+QuickGenID(5);// myl72
 
 
 // Generate a shortened UUID with length 7
-tinyuuid.TinyUUID(10); // 2miorbn
+QuickGenID(7); // 2miorbn
 
 ```
 

@@ -1,7 +1,6 @@
 // Example code
 
-import { TinyUUID } from "./index.js";
+import { QuickGenID } from "./index.js";
 
-
-const shortId = TinyUUID();
+const shortId = QuickGenID();
 console.log(shortId);

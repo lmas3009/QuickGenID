@@ -1,1 +1,1 @@
-export { TinyUUID } from './tinyuuid.js';
+export { QuickGenID } from './quickgenid.js';

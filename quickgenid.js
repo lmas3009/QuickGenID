@@ -6,9 +6,9 @@
 /**
  * Takes a length for a UUID and create it.
  */
-export function TinyUUID(length){
+export function QuickGenID(length){
   const characters = "abcdefghijklmnopqrstuvwxyz0123456789";
-  let tinnyuuid = "";
+  let quickgenid = "";
 
   if(length === undefined){
     length = 26
@@ -19,8 +19,8 @@ export function TinyUUID(length){
    */
   for (let i = 0; i < length; i++) {
     const randomIndex = Math.floor(Math.random() * characters.length);
-    tinnyuuid += characters[randomIndex];
+    quickgenid += characters[randomIndex];
   }
 
-  return tinnyuuid;
+  return quickgenid;
 };
