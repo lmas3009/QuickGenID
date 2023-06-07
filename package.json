@@ -1,0 +1,27 @@
+{
+  "name": "tinyuuid",
+  "version": "1.0.1",
+  "description": "Length-Controlled UUID Generator",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "uuid",
+    "tinyuuid"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "bugs": {
+    "url": "https://github.com/lmas3009/TinyUUID/issues"
+  },
+  "homepage": "https://github.com/lmas3009/TinyUUID.git#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmas3009/TinyUUID.git"
+  },
+  "author": "Aravind Kumar Vemula",
+  "license": "ISC"
+}
